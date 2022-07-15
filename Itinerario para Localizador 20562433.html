@@ -272,25 +272,15 @@
 
 
    <div id="itinerary">
-       
-      
-      <div id="itineraryAlerts" class="group">
-         <div class="fr">
-            <input type="button" class="but mSprite" onclick="window.print(); return false;" name="printrec" value="Imprimir">
-         </div>
-         
-                  <div class="cajaErr">
-                     <h3 class="nm alert">
-                        <span class="rb">!</span>&nbsp;Itinerario con saldo pendiente</h3>
-                     
-                  </div>
-               
-         
-      </div>
-      
-
-     
-      <div class="printable">
+     <div id="itineraryAlerts" class="group">
+       <div class="fr">
+         <input type="button" class="but mSprite" onclick="window.print(); return false;" name="printrec" value="Imprimir" />
+       </div>
+       <div class="ok">
+         <h3 class="nm"> Este itinerario está pagado y confirmado. ¡Buen viaje!</h3>
+       </div>
+     </div>
+     <div class="printable">
          <h2>
             Itinerario de viaje</h2>
       </div>
@@ -298,61 +288,8 @@
       <table id="items" width="100%">
          
           <tbody><tr class="item">
-            <td class="itemImage">
-               <img src="./Itinerario para Localizador 20562433_files/quote.gif" alt="">
-            </td>
-            <td class="itemData">
-                <div class="group itemHdr">
-                  <h3>
-                     Instrucciones de pago
-                     
-                  </h3>
-               </div>
-               
-                    <div class="group" id="payQuote">
-                       
-                             <div class="stats fl">
-                                <h3>
-                                   Importe a pagar:</h3>
-                                <p>
-                                   $
-                                   60,601.68 MXN</p>
-                                <p><a href="ORDEN DE PAGO- PRICE TRAVEL ALINE SUAREZ ROCHA.pdf"><img src="Consulta tu itinerario_files/eer.jpg" alt="" width="145" height="38" /></a></p>
-                             </div>
-                          
-                       <div class="stats fl">
-                          <h3>
-                             Paga antes de:</h3>
-                          <p>
-                             jue, 14 jul 2022, 09:17 pm
-                             
-                          </p>
-                       </div>
-                    </div>
-                
-
-        <div class="well">
-            <h3>
-                <span class="ptw-icon-laptop large-icon"></span>
-                Pago en linea
-            </h3>
-            <p>&nbsp;</p>
-            <div class="group">
-                <div class="fl"></div>
-                <div class="fl">
-                    <h3>Aceptamos todas las tarjetas de crédito</h3>
-                        <h4>Paga hasta en 18 meses sin intereses </h4>
-                    <p class="no-print">
-                        <a id="paymentOptionsLink" href="htt" class="box ap_colorbox_simple cboxElement" style="text-decoration:none;">
-                            <img src="./Itinerario para Localizador 20562433_files/1px.gif" alt="" class="bank2 spriteBank" title="American Express"><img src="./Itinerario para Localizador 20562433_files/1px.gif" alt="" class="bank3 spriteBank" title="Banamex"><img src="./Itinerario para Localizador 20562433_files/1px.gif" alt="" class="bank4 spriteBank" title="Santander"><img src="./Itinerario para Localizador 20562433_files/1px.gif" alt="" class="bank5 spriteBank" title="HSBC"><img src="./Itinerario para Localizador 20562433_files/1px.gif" alt="" class="bank6 spriteBank" title="Banorte"><img src="./Itinerario para Localizador 20562433_files/1px.gif" alt="" class="bank7 spriteBank" title="Scotiabank Inverlat"><img src="./Itinerario para Localizador 20562433_files/1px.gif" alt="" class="bank8 spriteBank" title="Bancomer"><img src="./Itinerario para Localizador 20562433_files/1px.gif" alt="" class="bank9 spriteBank" title="IXE"><img src="./Itinerario para Localizador 20562433_files/1px.gif" alt="" class="bank10 spriteBank" title="Inbursa"><img src="./Itinerario para Localizador 20562433_files/1px.gif" alt="" class="bank11 spriteBank" title="Banco del Bajio">
-                            &nbsp;Detalles<img src="./Itinerario para Localizador 20562433_files/1px.gif" class="pointR mSprite">
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-            </td>
+            <td class="itemImage">&nbsp;</td>
+            <td class="itemData">&nbsp;</td>
          </tr> 
 
                   
@@ -426,7 +363,7 @@
                </ul>
              </div>
            </div>
-             <b class="red">Comprobante no válido para reclamar el servicio descrito</b>
+             <b class="alert-success">Comprobante  válido para reclamar el servicio descrito</b>
              <table class="itemDesc">
                <tbody>
                  <tr class="title">
@@ -454,7 +391,7 @@
                      <li>Hora de salida:&nbsp;12:00</li>
                    </ul></td>
                    <td><!-- Si es una reserva por tiempo límite, entonces no se muestra como pendiente de pago -->
-                     <div class="cajaErr">Pago pendiente</div></td>
+                     <div class="cajaErr">20562433</div></td>
                  </tr>
                  <tr class="roomMeta">
                    <td colspan="20"><span class="light">Reservado para:</span>&nbsp;<b>Aline Suarez Rocha</b><br />
@@ -502,7 +439,7 @@
                      <li>Hora de salida:&nbsp;12:00</li>
                    </ul></td>
                    <td><!-- Si es una reserva por tiempo límite, entonces no se muestra como pendiente de pago -->
-                     <div class="cajaErr">Pago pendiente</div></td>
+                     <div class="cajaErr">20562433</div></td>
                  </tr>
                  <tr class="roomMeta">
                    <td colspan="20"><span class="light">Reservado para:</span>&nbsp;<b>Aline Suarez Rocha</b><br />
@@ -590,7 +527,7 @@
    </div>
 </div>
 
-<b class="red">Comprobante no válido para reclamar el servicio descrito</b>
+<b class="alert-success">Comprobante n válido para reclamar el servicio descrito</b>
 
 <table class="itemDesc">
    <tbody><tr class="title">
@@ -624,7 +561,7 @@
          </td>
          <td>
          <!-- Si es una reserva por tiempo límite, entonces no se muestra como pendiente de pago -->
-                <div class="cajaErr">Pago pendiente</div></td>
+                <div class="cajaErr">20562433</div></td>
       </tr>
       <tr class="roomMeta">
          <td colspan="20">
@@ -671,11 +608,10 @@
          </td>
          <td>
          <!-- Si es una reserva por tiempo límite, entonces no se muestra como pendiente de pago -->
-                <div class="cajaErr">Pago pendiente</div></td>
+                <div class="cajaErr">20562433</div></td>
       </tr>
       <tr class="roomMeta">
-         <td colspan="20">
-            <span class="light">Reservado para:</span>&nbsp;<b>Aline Suarez Rocha</b><br>
+         <td colspan="20"><span class="light">Reservado para:</span>&nbsp;<b>Aline Suarez Rocha</b><br>
             <span class="light">Peticiones especiales:&nbsp;</span>Ninguna
             
          </td>
@@ -821,7 +757,7 @@
                   </td>
                   <td class="lastcol right">
                       
-                        <span class="fl">$</span>0.00
+                        <span class="fl">$</span>60,601.68
                       
                   </td>
                </tr>
@@ -831,8 +767,7 @@
                      Saldo&nbsp;MXN:
                   </td>
                   <td class="lastcol right">
-                     <span class="fl">$</span>60,601.68
-                  </td>
+                     <span class="fl">$</span>0.00</td>
                </tr>
             </tbody></table>
             
@@ -847,7 +782,9 @@
          <div id="historyHidden" class="nojavascript" style="display: block;">
             
                <h3>Pagos</h3>
-                   <table class="list" cellspacing="0" cellpadding="0" width="100%"><tbody><tr class="nb"><td colspan="5"><h3></h3></td></tr><tr class="title"><th>Fecha</th><th>Forma de pago</th><th>No. Pago</th><th>Monto cobrado</th><th>Importe</th></tr><tr><td colspan="5" class="ct"> <span class="light">Cotización en espera de pago.</span></td></tr><tr class="tt"><td colspan="4" class="right"><strong>Pagado MXN:</strong></td><td class="right"><span class="floatleft">$</span> <strong>0.00</strong></td></tr></tbody></table>
+                   <table class="list" cellspacing="0" cellpadding="0" width="100%"><tbody><tr class="nb"><td colspan="5"><h3></h3></td></tr><tr class="title"><th>Fecha</th><th>Forma de pago</th><th>No. Pago</th><th>Monto cobrado</th><th>Importe</th></tr><tr>
+                     <td colspan="5" class="ct"> <span class="light">Cotización pagada, en espera de reflejo (transferencia)</span></td></tr><tr class="tt"><td colspan="4" class="right"><strong>Pagado MXN:</strong></td>
+                     <td class="right"><span class="floatleft">$</span> <strong>60,601.68</strong></td></tr></tbody></table>
             
          </div>
       </div>
@@ -977,7 +914,7 @@
                         <li><span class="footer-country-title">Colombia </span>(1) 7442074</li>
                         <li><span class="footer-country-title">EEUU / Canadá </span>+52 998 421 4851</li>
                         <li><span class="footer-country-title">Resto del mundo </span>+52 (55) 8333 8825</li>
-                        <li><a class="footer-navigation-link" href="mailto:contact@pricetravel.com.mx">reserva@priscetravel.com.mx</a></li>
+                        <li><a class="footer-navigation-link" href="mailto:reserva@pricetravel.com.mx">reserva@priscetravel.com.mx</a></li>
                         <li class="footer-social-media">
                             <a title="PriceTravel en Facebook" href="https://www.pricetravel.com.mx/ayuda/reservacion" rel="nofollow" class="footerSection__socialLinkIcon">
                                 <span class="ptw-icon-facebook-sq footer-icon-social-link"></span>
